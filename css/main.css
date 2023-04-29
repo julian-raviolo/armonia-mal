@@ -1,0 +1,669 @@
+body{ 
+    display: flex;
+    flex-wrap: wrap;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    width: 1200px;
+}
+
+
+
+/* navegador*/
+
+nav{
+    display: inline;
+    height: 30px;
+    padding: 20px;
+    padding-left: 200px;
+    position:fixed;
+    background-color: white;
+    top: 0px; 
+    left: 0px;
+    width: 1200px;
+}
+nav li{
+    list-style-type: none;
+    font-size: 20px;
+    float: left;
+    padding: 10px;
+    background-color: white;
+    margin-top: -20px;    
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+nav ul li a {
+    color: #55775E;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 10px;
+    background-color: white;  
+}
+
+nav img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline;
+    position:fixed;
+    background-color: white;
+    margin-top: 3px;
+    }
+
+.registro{
+        background-color: #FF5F01;
+        border: none;
+        color: white;
+        padding: 8px 35px;
+        text-align: center;
+        text-decoration: none;
+        display: inline;
+        position:fixed;
+        font-size: 16px;
+        border-radius: 30px;
+        margin-top: -12px;
+        margin-left: 20px;
+    }
+/* index style*/
+.services-sections{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    padding-top: 80px;
+    margin-left: 100px;
+    padding-bottom: 20px;
+
+}
+
+
+.services{
+    margin-left: 80px;
+}
+
+.services h3{
+    padding-top: 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/*instalaciones*/
+
+
+.instalaciones{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 1200px;
+    
+}
+
+.instalaciones-img{
+    display: flex;
+    flex-direction: row;
+    padding-left: 110px;
+
+}
+
+.instalaciones-img img{
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+
+/* primer banner style*/
+
+.banner1{
+    background-color: #55775E;
+    background-image: url(../assets/banner-1.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 1200px;
+    height: 500px;
+
+}
+
+#text-banner1{
+    padding-top: 100px;
+    padding-left: 700px;
+    margin-right: 100px;
+    text-align: right;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+
+}
+
+#text-banner1 h1,h2{
+    font-size: 40px;
+    
+}
+
+.agendar-visita{
+    background-color: white;
+    border: none;
+    color:#55775E ;
+    padding: 8px 35px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 30px;
+    float: right;    
+    margin-right: 100px;
+    box-shadow: 1px 1px 9px black; ;
+}
+
+
+.espacio{
+    background-color: white;
+    border-radius: 30px;
+    height: 100px;
+    width: 1200px;
+    margin-top: -50px;
+    margin-bottom: -90px;
+}
+
+
+
+
+
+
+/* cards style*/
+
+.cards-coach{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+
+.cards{
+background-color: #55775E;
+border-radius: 10px;
+margin: 10px 10px 20px 60px;
+padding: 30px 40px ;
+height: 400px;
+width: 240px;
+text-align: center;
+
+}
+
+
+.cards img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;  
+    margin-top: -100px;
+    border-style: solid;
+    border-color: #55775E;
+}
+.cards h5{
+    font-size: 17px;
+    color: aliceblue;
+}
+
+.cards h4{
+    font-size: 24px;
+    color: aliceblue;
+}
+.cards p{
+    font-size: 15px;
+    color: aliceblue;
+    padding: 0px;
+}
+
+
+.team{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 90px;
+    width: 1200px;
+    padding-top: 20px;
+    
+}
+
+
+
+
+/*Quienes somos*/
+
+
+
+.quienes-somos{   
+    text-align: center;
+    margin-right: 600px;
+    margin-top: 140px;
+    margin-left: -40px;
+    margin-bottom: 20px;
+}
+#armonia-1{
+    display: flex;
+    margin-left: 680px;
+    margin-top: -230px;
+    height: 300px;
+    width: 490px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+/*Metodos*/
+
+.banner2{
+    background-color: #55775E;
+    background-image: url(../assets/banner-2.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 1200px;
+    height: 500px;
+
+}
+
+#text-banner2{
+    padding-top: 140px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-size: 30px;
+
+}
+
+
+/* metodos style*/
+
+#persona-3{
+    display: flex;
+    padding-left: 750px;
+    width: 300px;
+    
+}
+
+.met2{
+    background-image:url(../assets/back-person.png);
+    background-repeat: no-repeat;
+    background-position: -40px;
+    padding-left: 100px;
+    color: white;
+    padding-right: 1180px;
+    height: 400px;
+    width: 1200px;
+}
+
+.met2 p{
+    padding-left: 0px;
+    margin-right: 500px;
+}
+.met2 h2{
+    margin-top: -200px;
+    padding-left: 0px;
+    margin-right: 500px;
+}
+
+/* persons style*/
+
+.met1{
+    display: flex;
+    padding-bottom: 20px; 
+    padding-top: 50px; 
+    text-align: right;
+    padding-right: 1400px;
+}
+
+#persona-1{
+    display: flex;
+    float: left;
+    margin-left: 30px;
+    width: 300px;
+}
+
+.met1 h1,p{
+padding-left: 70px;
+}
+
+#persona-2{
+    display: flex;
+    float: left;
+    width: 300px;
+    margin-left: 90px;
+    
+}
+
+.met3{
+    display: flex;
+    padding-bottom: 20px; 
+    padding-top: 50px; 
+    text-align: right;
+    padding-right: 1450px;
+}
+
+
+
+/* footer*/
+
+footer{
+    background-color: #55775E;
+    padding: 10px 10px 10px 10px;
+    width: 1200px;
+    color: white;
+}
+
+.logo-rrss{
+    width: 30px;
+    height: 30px;
+}
+
+.rrss-footer{
+    padding-left: 50px;
+}
+
+.mapa-armonia{
+    padding-left: 50px;
+}
+
+.footer-area{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    margin-top: 16px;
+    width: 1200px;
+    margin-left: 100px;
+}
+
+
+.contact-footer{
+    margin-left: 10px;
+    margin-right: 0px;
+    text-align: left;
+}
+
+
+
+
+/*registro contacto*/
+
+.formulario{
+    background-image: url(../assets/tennis-ball.svg);
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 1200px;
+    background-position: 50% -450px;
+    background-size: cover;
+}
+
+#contacto{
+color: azure;
+padding-top: 50px;
+text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding-top: 100px;
+}  
+
+form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li{
+    margin-top: 20px;
+}
+
+input{
+    width: 200px;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 200px;
+    border-radius: 5px;
+}
+
+.contacto-leyenda{
+    text-align: center;
+    width: 600px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 260px;
+}
+
+.enviar-formulario{  
+    display: flex;
+    padding-left: 550px;
+    padding-top: 20px;
+}
+.enviar-formulario a {
+    background-color: #FF5F01;
+    border: none;
+    color: white;
+    padding: 8px 35px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 30px;
+    
+}
+
+
+
+/*planes*/
+
+
+.banner3{
+    background-color: #55775E;
+    background-image: url(../assets/banner-3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 1200px;
+    height: 500px;
+    background-position: 0px;
+}
+
+#text-banner3{
+    padding-top: 140px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-size: 30px;
+}
+
+
+.plan-escuelita{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 20px;
+}
+
+.planes{
+    display: flex;
+    flex-direction: row;
+}
+
+.cards-planes{
+border: solid;
+border-color: #55775E;
+border-radius: 10px;
+margin: 10px 10px 20px 80px;
+padding: 30px 30px ;
+height: 300px;
+width: 200px;
+text-align: center;
+}
+
+.planes-lista{
+    list-style-type: circle;
+}
+
+
+.plan-adulto{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 20px;
+}
+
+
+
+/*eventos*/
+
+.eventos{
+    display: flex;
+    padding-top: 30px;
+}
+
+.eventos p{
+    margin-left: 100px;
+    margin-right: 140px;
+    text-align: center;
+}
+
+.eventos h3{
+    margin-left: 100px;
+    padding-left: 70px;
+    margin-right: 0px;
+    text-align: center;
+    width: 300px;
+    color: #55775E;
+    font-size: 23px;
+    font-weight:bold;
+}
+
+.eventos-fila1{
+    flex-direction: column;
+    
+}
+
+
+.evento-fila2{
+    flex-direction: column;
+}
+
+
+.cards-eventos{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cards-eventos img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+
+
+
+
+.banner4{
+    background-color: #55775E;
+    background-image: url(../assets/banner-4.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 1200px;
+    height: 500px;
+
+}
+
+#text-banner4{
+        padding-top: 200px;
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px 5px black;
+        font-size: 30px;
+}
+
+
+
+.productos{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    width: 1200px;
+}
+
+
+
+.cards-productos{
+    border: solid;
+    border-color: #55775E;
+    border-radius: 10px;
+    padding: 30px 30px;
+    height: 460px;
+    width: 300px;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.productos img{
+    height: 270px;
+    width: 270px;
+    align-content: center;
+}
+
+.cards-productos p{
+    padding-left: 0px;
+}
+
+.cards-productos h3{
+    text-align: center;
+}
+
+.consultar{
+    background-color: #FF5F01;
+    border: none;
+    color: white;
+    padding: 8px 35px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-top: 160px;
+    margin-left: 70px;
+}
+
+
+
+
+
+
+.banner-publicidad{
+    background-image: url(https://babolaturuguay.uy/wp-content/uploads/2021/06/Pure-strike-thiem-horizontal-1-min.png);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: -200px center;
+    height: 300px;
+    width: 1200px;
+    margin-left: 20px;
+    color: white;
+}
+
+#publicidad-h3{
+    padding-top: 100px;
+    margin-left: 500px;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px black;
+}
+
+#publicidad-h4{
+    padding-top: 0px;
+    margin-left: 500px;
+    margin-right: 100px;
+    text-align: center;
+    text-shadow: 10px;
+    padding-right: 50px;
+    padding-left: 30px;
+    text-shadow: 1px 1px 2px black;
+}
+
